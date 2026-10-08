@@ -1,67 +1,30 @@
-# python-uv-workspace
+﻿# TP1 Python — Partie 1
 
-A tiny Python project built with `uv` to verify that the development environment is working correctly. It creates a small DataFrame with sample values and renders a bar chart using `pandas`, `matplotlib`, and `seaborn`.
+Ce notebook propose des exercices pratiques pour apprendre les bases de Python.
 
-## What this project does
+## Exercices
 
-This app is intentionally minimal and acts as a quick smoke test for a Python environment:
+Le notebook aborde notamment :
 
-- creates a simple dataset
-- builds a pandas DataFrame
-- plots the data with seaborn
-- displays a bar chart using matplotlib
+- la conversion de types et le calcul d’une moyenne pondérée ;
+- les conditions et l’analyse d’une équation du second degré ;
+- les boucles `for` et `while` ;
+- les fonctions, `map()` et `zip()` ;
+- les listes et le calcul de la médiane à partir de notes saisies dans l’ordre croissant ;
+- les dictionnaires, les listes et les tuples pour configurer un système multi-agents.
 
-It is useful as a starting point for learning how to manage a Python project with `uv` and validate that common scientific libraries are installed and working.
+## Ouvrir le notebook
 
-## Project structure
+Le fichier se trouve ici :
 
 ```text
-.
-├── app.py
-├── pyproject.toml
-├── README.md
-├── src/
-│   └── python_uv_workspace/
-│       └── __init__.py
-└── hello.ipynb
+src/python_uv_workspace/TP1python_partie1.ipynb
 ```
 
-## Requirements
-
-- Python 3.14+
-- `uv` package manager
-
-## Setup
-
-1. Install `uv` if you do not already have it:
+Vous pouvez l’ouvrir avec Jupyter Notebook, JupyterLab ou Visual Studio Code. Avec JupyterLab installé dans l’environnement du projet, lancez :
 
 ```bash
-pip install uv
+uv run jupyter lab
 ```
 
-2. Create the environment and install dependencies:
-
-```bash
-uv sync
-```
-
-3. Run the app:
-
-```bash
-uv run app.py
-```
-
-This will open a chart window showing a basic validation plot.
-
-## Dependencies
-
-The project currently uses:
-
-- `pandas`
-- `matplotlib`
-- `seaborn`
-- `ipykernel`
-
-## Notes
-
-This project is a lightweight starter template, so it is intentionally simple. You can extend it by adding more data processing, visualization, or project code in the `src/python_uv_workspace` package.
+Puis ouvrez `src/python_uv_workspace/TP1python_partie1.ipynb`.

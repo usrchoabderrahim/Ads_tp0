@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Ignore these project files
+/app.py
+/hello.ipynb
+/notes_cours.ipynb
